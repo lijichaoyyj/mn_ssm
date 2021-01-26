@@ -28,6 +28,8 @@ public class MybatisDemo {
         BlogMapper blogMapper = sqlSession.getMapper(BlogMapper.class);
         Blog blog = blogMapper.selectBlog(2);
         System.out.println(blog);
+
+        System.out.println("dev_app_v1");
     }
 
 

@@ -29,7 +29,7 @@ public class MybatisDemo {
         Blog blog = blogMapper.selectBlog(2);
         System.out.println(blog);
 
-        System.out.println("dev_app_v1");
+        System.out.println("master");
     }
 
 
